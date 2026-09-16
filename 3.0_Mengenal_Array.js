@@ -14,3 +14,7 @@ let bulan = [
   "Dzul Hijjah",
 ];
 console.log(bulan[4]); // Tampilkan bulan ke-5
+
+// Soal 2
+let angka = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+angka.push(11); // Menambahkan angka ke-11
