@@ -49,3 +49,10 @@ console.log(nilaiSiswaB[0].math); // Menampilkan nilai mate siswa b
 // Soal 8
 angka = [1, 2, 3, 4, 5];
 angka.forEach((a) => console.log(a));
+
+// Soal 9
+let arr1 = ["a", "b", "c"];
+let arr2 = ["d", "e", "f"];
+let arrTergabung = arr1.concat(arr2);
+
+console.log(arrTergabung);
