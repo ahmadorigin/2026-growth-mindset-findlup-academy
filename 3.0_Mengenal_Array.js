@@ -93,3 +93,7 @@ let angkaGanjil = [1, 3, 5, 7, 11, 13, 17, 19]; // Membuat array ganjil dari 1 -
 // Soal 17
 angka = [5, 12, 8, 130, 441];
 let angkaBaru = angka.filter((a) => a > 10);
+
+// Soal 18
+angka = [1, 2, 3, 4, 5];
+angkaBaru = angka.map((a) => a * a);
