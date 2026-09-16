@@ -97,3 +97,7 @@ let angkaBaru = angka.filter((a) => a > 10);
 // Soal 18
 angka = [1, 2, 3, 4, 5];
 angkaBaru = angka.map((a) => a * a);
+
+// Soal 19
+angka = [10, 20, 30, 40, 50];
+angkaBaru = angka.reduce((a, b) => a + b);
