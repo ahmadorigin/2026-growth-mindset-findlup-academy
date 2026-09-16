@@ -28,5 +28,3 @@ let myFavoriteFood = [
   "Kurma",
 ];
 myFavoriteFood[1] = "Pizza"; // Mengubah isi Array, (tapi saya kurang suka pizza...)
-
-console.log(myFavoriteFood);
