@@ -62,3 +62,10 @@ angka.reverse(); // Membalikkan ururtan elemen array
 // Soal 11
 buah = ["apel", "mangga", "jeruk"];
 buah.pop(); // Menghapus elemen terakhir
+
+// Soal 12
+angka = [0, 20, 34, 41, 50, 9, 7, 86, 93, 10];
+let angkaTerbesar = 0;
+angka.forEach((a) => {
+  if (angkaTerbesar < a) angkaTerbesar = a;
+}); // Mencari angka terbesar
