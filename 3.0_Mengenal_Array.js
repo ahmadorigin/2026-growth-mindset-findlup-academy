@@ -41,4 +41,9 @@ angka.push(5, 10, 15); // Menanbahkan angka random ke array kosong
 buah = ["Apel", "Mangga", "Jeruk", "Durian", "Pisang"];
 let panjangArray = buah.length; // Menghitung panjang array dengan otomatis
 
+// Soal 7
+let nilaiSiswaA = [{ math: 80, bInggris: 85 }];
+let nilaiSiswaB = [{ math: 75, bInggris: 90 }];
+console.log(nilaiSiswaB[0].math);
+
 console.log(angka);
