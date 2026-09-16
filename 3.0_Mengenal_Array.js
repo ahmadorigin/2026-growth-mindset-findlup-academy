@@ -73,3 +73,7 @@ angka.forEach((a) => {
 // Soal 13
 let nama = ["Ngawi", "Ahmad", "Muhammad", "Abdullah", "Bangau"];
 nama.forEach((n) => console.log(n));
+
+// Soal 14
+buah = ["apel", "mangga", "jeruk"];
+buah.push("Kiwi");
