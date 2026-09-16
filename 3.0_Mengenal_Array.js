@@ -18,3 +18,15 @@ console.log(bulan[4]); // Tampilkan bulan ke-5
 // Soal 2
 let angka = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 angka.push(11); // Menambahkan angka ke-11
+
+// Soal 3
+let myFavoriteFood = [
+  "Brownies",
+  "Bubur Kacang Hijau",
+  "Nagasari",
+  "Salad Buah",
+  "Kurma",
+];
+myFavoriteFood[1] = "Pizza"; // Mengubah isi Array, (tapi saya kurang suka pizza...)
+
+console.log(myFavoriteFood);
