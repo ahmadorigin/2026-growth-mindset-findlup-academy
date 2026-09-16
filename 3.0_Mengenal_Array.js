@@ -86,3 +86,6 @@ function menggandakan(arr) {
   }
   return newArr;
 } // Fungsi menggandakan arr inputan
+
+// Soal 16
+let angkaGanjil = [1, 3, 5, 7, 11, 13, 17, 19];
