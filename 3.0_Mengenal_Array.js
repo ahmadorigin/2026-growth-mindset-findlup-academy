@@ -77,3 +77,12 @@ nama.forEach((n) => console.log(n));
 // Soal 14
 buah = ["apel", "mangga", "jeruk"];
 buah.push("Kiwi");
+
+// Soal 15
+function menggandakan(arr) {
+  let newArr = [];
+  for (let i = 0; i < arr.length; i++) {
+    newArr.push(arr[i] + arr[i]);
+  }
+  return newArr;
+} // Fungsi menggandakan arr inputan
