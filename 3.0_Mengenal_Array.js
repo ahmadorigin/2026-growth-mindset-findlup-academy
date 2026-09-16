@@ -37,4 +37,8 @@ buah.shift(0); // Menghapus elemen pertama
 angka = [];
 angka.push(5, 10, 15); // Menanbahkan angka random ke array kosong
 
+// Soal 6
+buah = ["Apel", "Mangga", "Jeruk", "Durian", "Pisang"];
+let panjangArray = buah.length; // Menghitung panjang array dengan otomatis
+
 console.log(angka);
