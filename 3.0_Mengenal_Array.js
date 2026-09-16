@@ -58,3 +58,7 @@ let arrTergabung = arr1.concat(arr2); // Menggabungkan 2 array
 // Soal 10
 angka = [1, 2, 3, 4, 5];
 angka.reverse(); // Membalikkan ururtan elemen array
+
+// Soal 11
+buah = ["apel", "mangga", "jeruk"];
+buah.pop(); // Menghapus elemen terakhir
