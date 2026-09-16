@@ -44,6 +44,8 @@ let panjangArray = buah.length; // Menghitung panjang array dengan otomatis
 // Soal 7
 let nilaiSiswaA = [{ math: 80, bInggris: 85 }];
 let nilaiSiswaB = [{ math: 75, bInggris: 90 }];
-console.log(nilaiSiswaB[0].math);
+console.log(nilaiSiswaB[0].math); // Menampilkan nilai mate siswa b
 
-console.log(angka);
+// Soal 8
+angka = [1, 2, 3, 4, 5];
+angka.forEach((a) => console.log(a));
