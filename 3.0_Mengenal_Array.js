@@ -92,12 +92,23 @@ let angkaGanjil = [1, 3, 5, 7, 11, 13, 17, 19]; // Membuat array ganjil dari 1 -
 
 // Soal 17
 angka = [5, 12, 8, 130, 441];
-let angkaBaru = angka.filter((a) => a > 10);
+let angkaBaru = angka.filter((a) => a > 10); // Mencari angka yang lebih dari 10
 
 // Soal 18
 angka = [1, 2, 3, 4, 5];
-angkaBaru = angka.map((a) => a * a);
+angkaBaru = angka.map((a) => a * a); // Meng-kuadratkan elemen array
 
 // Soal 19
 angka = [10, 20, 30, 40, 50];
-angkaBaru = angka.reduce((a, b) => a + b);
+angkaBaru = angka.reduce((a, b) => a + b); // Men-total seluruh elemen array
+
+// Soal 20
+// function untuk menggabungkan 2 array tanpa duplikasi
+function noDuplikat(arr1, arr2) {
+  for (let i = 0; i < arr1.length; i++) {
+    if (arr1[i] === arr2[i]) return "Input tidak boleh Duplikat...";
+  }
+  return arr1.concat(arr2);
+}
+
+console.log(noDuplikat(arr1, arr2)); // Test noDuplikat().
