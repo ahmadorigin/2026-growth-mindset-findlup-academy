@@ -28,3 +28,9 @@ let myFavoriteFood = [
   "Kurma",
 ];
 myFavoriteFood[1] = "Pizza"; // Mengubah isi Array, (tapi saya kurang suka pizza...)
+
+// Soal 4
+let buah = ["Apel", "Mangga", "Jeruk"];
+buah.shift(0);
+
+console.log(buah);
