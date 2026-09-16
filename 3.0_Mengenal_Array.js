@@ -69,3 +69,7 @@ let angkaTerbesar = 0;
 angka.forEach((a) => {
   if (angkaTerbesar < a) angkaTerbesar = a;
 }); // Mencari angka terbesar
+
+// Soal 13
+let nama = ["Ngawi", "Ahmad", "Muhammad", "Abdullah", "Bangau"];
+nama.forEach((n) => console.log(n));
