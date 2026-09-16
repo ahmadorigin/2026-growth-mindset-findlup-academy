@@ -31,6 +31,10 @@ myFavoriteFood[1] = "Pizza"; // Mengubah isi Array, (tapi saya kurang suka pizza
 
 // Soal 4
 let buah = ["Apel", "Mangga", "Jeruk"];
-buah.shift(0);
+buah.shift(0); // Menghapus elemen pertama
 
-console.log(buah);
+// Soal 5
+angka = [];
+angka.push(5, 10, 15); // Menanbahkan angka random ke array kosong
+
+console.log(angka);
