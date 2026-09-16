@@ -13,4 +13,4 @@ let bulan = [
   "Dzul Qa`dah",
   "Dzul Hijjah",
 ];
-console.log(bulan[4]);
+console.log(bulan[4]); // Tampilkan bulan ke-5
