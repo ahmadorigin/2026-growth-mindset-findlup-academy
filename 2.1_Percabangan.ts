@@ -85,3 +85,17 @@ if (password.length >= 8 && password.indexOf("1") > 0) {
 } else {
   console.log("Login Gagal...");
 }
+
+console.log("\n\nLatihan -- Pembuatan Email\n");
+
+function validasiEmailLengkap(email: string) {
+  if (!email) {
+    return "Email tidak boleh kosong";
+  }
+  const pattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  if (!pattern.test(email)) {
+    return "Format email tidak valid";
+  }
+  return "Email valid";
+}
+console.log(validasiEmail("user@gmail.com"));
