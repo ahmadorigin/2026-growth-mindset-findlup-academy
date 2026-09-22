@@ -1,0 +1,27 @@
+{
+  "name": "growth-mindset",
+  "version": "1.0.0",
+  "description": "",
+  "main": "2.1_Percabangan.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node 2.1_Percabangan.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmadorigin/2026-growth-mindset-findlup-academy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ahmadorigin/2026-growth-mindset-findlup-academy/issues"
+  },
+  "homepage": "https://github.com/ahmadorigin/2026-growth-mindset-findlup-academy#readme",
+  "devDependencies": {
+    "@types/node": "^26.6.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
