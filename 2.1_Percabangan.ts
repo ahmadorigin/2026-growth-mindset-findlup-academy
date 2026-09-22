@@ -1,5 +1,8 @@
+console.log("\n===== Latihan 80% Praktik =====\n\n");
+
 // Latihan 1 -- Validasi Umur Pengguna
-let umur: number = 16;
+console.log("Latihan 1 -- Validasi umur pengguna\n");
+let umur: number = 6;
 
 if (umur >= 17) {
   console.log("Anda boleh membuat SIM");
@@ -8,19 +11,36 @@ if (umur >= 17) {
 }
 
 // Latihan 2 -- Validasi Login
+console.log("\n\nLatihan 2 -- Validasi Login\n");
+
+// User input data
 let username: string = "admin";
 let password: string = "1234";
 
-if (username === "admin" && password === "1234") {
+// New Command: coba bikin validasi password minimal 6 karakter dengan maksimal 8 karakter...
+
+// Tahap 2: Validasi inputan user
+if (password.length <= 6 || password.length >= 8) {
+  console.log(
+    "Password harus lebih dari 5 karakter dan kurang dari 9 karakter",
+  );
+} else if (username === "admin" && password === "12345678") {
+  // Tahap 3: System check user_password
   console.log("Login Berhasil!!");
 } else {
   console.log("Username atau Password Salahh...");
 }
 
 // Latihan 3 -- Penilaian Mahasiswa
-let nilai: number = 75;
+console.log("\n\nLatihan 3 -- Penilaian Mahasiswa\n");
 
-if (nilai >= 90) {
+let nilai: number = -75;
+// input wajib di isi dengan nilai antara 1 - 100
+// apabila di luar persyaratan tampilkan error
+
+if (nilai > 100 || nilai < 0) {
+  console.log("Error: Input nilai harus di antara 0 - 100");
+} else if (nilai >= 90) {
   console.log("A");
 } else if (nilai >= 80) {
   console.log("B");
@@ -33,6 +53,8 @@ if (nilai >= 90) {
 }
 
 // Latihan 4 -- Cek Bilangan
+console.log("\n\nLatihan 4 -- Cek Bilangan\n");
+
 let angka: number = -10;
 
 if (angka > 0) {
