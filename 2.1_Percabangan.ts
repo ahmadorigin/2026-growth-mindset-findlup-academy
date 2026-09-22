@@ -1,2 +1,77 @@
-const pesan: string = "TypeScript jalan!";
-console.log(pesan);
+// Latihan 1 -- Validasi Umur Pengguna
+let umur: number = 16;
+
+if (umur >= 17) {
+  console.log("Anda boleh membuat SIM");
+} else {
+  console.log("Anda belum cukup umur...");
+}
+
+// Latihan 2 -- Validasi Login
+let username: string = "admin";
+let password: string = "1234";
+
+if (username === "admin" && password === "1234") {
+  console.log("Login Berhasil!!");
+} else {
+  console.log("Username atau Password Salahh...");
+}
+
+// Latihan 3 -- Penilaian Mahasiswa
+let nilai: number = 75;
+
+if (nilai >= 90) {
+  console.log("A");
+} else if (nilai >= 80) {
+  console.log("B");
+} else if (nilai >= 70) {
+  console.log("C");
+} else if (nilai >= 60) {
+  console.log("D");
+} else {
+  console.log("E");
+}
+
+// Latihan 4 -- Cek Bilangan
+let angka: number = -10;
+
+if (angka > 0) {
+  console.log("Positif");
+} else if (angka < 0) {
+  console.log("Negatif");
+} else {
+  console.log("Nol");
+}
+
+console.log("\n===== Latihan Mandiri =====\n\n");
+
+console.log("Latihan 1 -- Cek Kelulusan\n");
+nilai = 84;
+
+if (nilai >= 75) {
+  console.log("Lulus nich");
+} else {
+  console.log("no Lulus nich");
+}
+
+console.log("\n\nLatihan 2 -- Sistem Parkir\n");
+let kendaraan: string = "Motor";
+
+switch (kendaraan) {
+  case "Motor":
+    console.log("Parkir Motor: 2000");
+    break;
+  case "Mobil":
+    console.log("Parkir Mobil: 5000");
+    break;
+  case "Truk":
+    console.log("Parkir Truk: 10000");
+    break;
+
+  default:
+    console.log("Jalan kaki mawon...");
+    break;
+}
+
+angka = 4;
+if (angka % 2 === 0) console.log(`${angka} adalah genap!!`);
