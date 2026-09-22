@@ -73,5 +73,15 @@ switch (kendaraan) {
     break;
 }
 
+console.log("\n\nLatihan 3 -- Ganjil Genap\n");
 angka = 4;
 if (angka % 2 === 0) console.log(`${angka} adalah genap!!`);
+
+console.log("\n\nLatihan 4 -- Validasi Password\n");
+password = "12345678";
+
+if (password.length >= 8 && password.indexOf("1") > 0) {
+  console.log("Login berhasil...");
+} else {
+  console.log("Login Gagal...");
+}
