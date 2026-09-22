@@ -89,13 +89,23 @@ if (password.length >= 8 && password.indexOf("1") > 0) {
 console.log("\n\nLatihan -- Pembuatan Email\n");
 
 function validasiEmailLengkap(email: string) {
-  if (!email) {
-    return "Email tidak boleh kosong";
-  }
+  if (!email) return "Email tidak boleh kosong";
+  if (
+    !email.includes(".com") ||
+    !email.includes(".net") ||
+    !email.includes(".id")
+  )
+    return 'Email harus mengandung domain ini ".com" atau ".id" atau ".net"';
+  if (email.length < 10) return "Email tidak boleh kurang dari 10 karakater";
+  if (!email.includes("1") || !email.includes("2") || !email.includes("3"))
+    return "Email harus mengandung angka 1 atau 2 atau 3";
+
   const pattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
   if (!pattern.test(email)) {
     return "Format email tidak valid";
   }
   return "Email valid";
 }
-console.log(validasiEmail("user@gmail.com"));
+
+console.log(validasiEmailLengkap("user@gmail.com"));
