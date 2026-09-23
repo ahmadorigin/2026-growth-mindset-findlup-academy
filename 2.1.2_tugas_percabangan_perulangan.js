@@ -33,17 +33,19 @@ async function login() {
 // Handle showMenu function
 
 async function showMenu() {
-  console.log("===== MENO UTAMA =====");
-  console.log("1. Buat pesanan baru");
-  console.log("2. Lihat semua pesanan");
-  console.log("3. Perbarui pesanan");
-  console.log("4. Hapus pesanan");
-  console.log("5. Keluar");
-  console.log("======================");
+  console.log("===== MAIN MENU =====");
+  console.log("1. Create new order");
+  console.log("2. Read all order");
+  console.log("3. Update the order");
+  console.log("4. Delete the order");
+  console.log("5. Quit");
+  console.log("=========CRUD'Q=========");
 
   const choice = await askQuest("Your choice: ");
   handleMenu(choice);
 }
+
+// Handle handleMenu function
 
 async function handleMenu(choice) {
   switch (choice) {
@@ -61,7 +63,7 @@ async function handleMenu(choice) {
       break;
     // Logic for fifth choice
     case "5":
-      "Exit from app...";
+      console.log("\n\nExit from app...");
       rl.close();
       break;
 
